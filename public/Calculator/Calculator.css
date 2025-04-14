@@ -1,0 +1,104 @@
+body {
+    background-color: #404c64;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+h3 {
+    position: relative;
+    top: 15px;
+}
+
+.Calculator_body {
+    background-color: #242c44;
+    height: 350px;
+    width: 380px;
+    border-radius: 2%;
+    position: relative;
+    top: 10px;
+}
+
+#Calculator_output {
+    background-color: #182434;
+    height: 80px;
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+#container {
+    margin: 10px;
+    padding-top: 18px;
+    padding-left: 8px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px 0px;
+}
+
+.btn {
+    font-size: 1.5rem;
+    height: 55px;
+    width: 70px;
+    background-color: white;
+    border-radius: 7%;
+    border: none;
+    box-shadow: 0px 3px 0px rgb(148, 148, 148);
+    font-weight: bolder;
+    color: #52545e;
+    cursor: pointer;
+}
+
+button.del {
+    background-color: #687494;
+    width: 85px;
+    color: white;
+    box-shadow: 0px 3px 0px #3f4e6a;
+}
+
+button.add,
+button.subtract,
+button.multiply {
+    background-color: white;
+    width: 85px;
+}
+
+button.reset {
+    grid-column: span 2;
+    background-color: #687494;
+    width: 160px;
+    border-radius: 6px;
+    color: white;
+    box-shadow: 0px 3px 0px #3f4e6a;
+}
+
+button.equal {
+    grid-column: span 2;
+    width: 174px;
+    border-radius: 6px;
+    background-color: #cf2f32;
+    color: white;
+    box-shadow: 0px 3px 0px #81262a;
+}
+
+button:hover {
+    opacity: 0.8;
+    transition: all 50ms ease-in;
+}
+
+button:active {
+    transform: translateY(2px);
+}

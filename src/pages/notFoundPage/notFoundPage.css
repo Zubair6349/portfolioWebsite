@@ -1,0 +1,119 @@
+.notFound-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.notFound-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 1rem;
+}
+
+.notFound-paragraph {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+.link-home button {
+    background-color: #007bff;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.link-home button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Media Queries */
+@media (max-width: 1400px) {
+    .notFound-heading {
+        font-size: 2.8rem;
+    }
+}
+
+@media (max-width: 1208px) {
+    .notFound-heading {
+        font-size: 2.5rem;
+    }
+
+    .notFound-paragraph {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .notFound-heading {
+        font-size: 2.3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .notFound-heading {
+        font-size: 2rem;
+    }
+
+    .link-home button {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 540px) {
+    .notFound-heading {
+        font-size: 1.8rem;
+    }
+
+    .notFound-paragraph {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 420px) {
+    .notFound-heading {
+        font-size: 1.6rem;
+    }
+
+    .link-home button {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .notFound-heading {
+        font-size: 1.5rem;
+    }
+
+    .notFound-paragraph {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .notFound-heading {
+        font-size: 1.3rem;
+    }
+
+    .notFound-paragraph {
+        font-size: 0.85rem;
+    }
+
+    .link-home button {
+        font-size: 0.85rem;
+        padding: 0.45rem 0.9rem;
+    }
+}
