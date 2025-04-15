@@ -118,11 +118,6 @@ export const personalInfo = [
     },
 
     {
-        title: 'Freelance : ',
-        description: 'Available',
-    },
-
-    {
         title: 'Address : ',
         description: 'Lahore, Samanabad',
     },
@@ -145,8 +140,8 @@ export const personalInfo = [
 
 export const stats = [
     {
-        no: '5+',
-        title: 'Years of <br /> Experience',
+        no: '4+',
+        title: 'Years of <br /> Design Experience',
     },
 
     {
@@ -155,13 +150,13 @@ export const stats = [
     },
 
     {
-        no: '29+',
-        title: 'Happy <br /> Customers',
+        no: '5+',
+        title: 'Years of <br /> Editing Experience',
     },
 
     {
-        no: '8+',
-        title: ' Awards <br /> Won',
+        no: '2+',
+        title: 'Years of <br /> Animating Experience',
     },
 ];
 
@@ -264,26 +259,18 @@ export const skill = [
 ];
 
 export const resume = [
+
     {
         id: 1,
         category: 'experience',
         icon: <RiBriefcase4Fill />,
-        year: '2018 - 2023',
-        title: 'Fiver & Upwork <span> Graphic Designer & Video Editor </span>',
-        desc: 'With 5 years of freelance experience on Fiverr and Upwork, I have delivered top-tier graphic design and video editing services, consistently exceeding client expectations.',
-    },
-
-    {
-        id: 2,
-        category: 'experience',
-        icon: <RiBriefcase4Fill />,
         year: '2020 - 2021',
-        title: '2D Animator <span> Inkhorn Solutions </span>',
+        title: '2D Animator & Video Editor <span> Inkhorn Solutions </span>',
         desc: 'Led a 2D animation team at a local company, overseeing creative production and ensuring high-quality animations from concept to delivery.',
     },
 
     {
-        id: 3,
+        id: 2,
         category: 'experience',
         icon: <RiBriefcase4Fill />,
         year: '2023 - 2024',
@@ -292,16 +279,7 @@ export const resume = [
     },
 
     {
-        id: 4,
-        category: 'experience',
-        icon: <RiBriefcase4Fill />,
-        year: 'Present',
-        title: 'Local Freelancing <span> Web Developer, Designer, Editor </span>',
-        desc: 'Currently offering local freelance services in web development, design, and video editing—delivering creative and functional solutions to diverse clients.',
-    },
-
-    {
-        id: 5,
+        id: 3,
         category: 'education',
         icon: <RiGraduationCapFill />,
         year: '2019',
@@ -310,7 +288,7 @@ export const resume = [
     },
 
     {
-        id: 6,
+        id: 4,
         category: 'education',
         icon: <RiGraduationCapFill />,
         year: '2023',
@@ -319,7 +297,7 @@ export const resume = [
     },
 
     {
-        id: 7,
+        id: 5,
         category: 'education',
         icon: <RiGraduationCapFill />,
         year: 'Present',

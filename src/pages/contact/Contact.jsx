@@ -83,17 +83,6 @@ const Contact = () => {
 
                     <div className="contact-card">
                         <span className="contact-icon">
-                            <RiUser3Line />
-                        </span>
-
-                        <div>
-                            <h3 className="contact-title">Freelance</h3>
-                            <p className='contact-data'>Available Right Now</p>
-                        </div>
-                    </div>
-
-                    <div className="contact-card">
-                        <span className="contact-icon">
                             <RiMailLine />
                         </span>
 
